@@ -14,3 +14,6 @@ Password: qwerty123
 * suggestions
 * order management 
 * payment processing with Stripe
+
+![Panel](screenshots/panel.png?raw=true)
+![Messages](screenshots/messages.png?raw=true)
