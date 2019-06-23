@@ -11,6 +11,13 @@ mongoose.connect(db, { useNewUrlParser: true, useFindAndModify: false })
   .catch((err) => console.log(err))
 
 
+// ...
+// Right before your app.listen(), add this:
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
+
+
 app.listen(port, (err) => {
   if (err) {
     console.log(err)

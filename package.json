@@ -11,7 +11,8 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -34,5 +35,8 @@
     "react-stripe-elements": "^3.0.0",
     "request": "^2.88.0",
     "stripe": "^7.1.0"
+  },
+  "engines": {
+    "node": "8.12.0"
   }
 }
