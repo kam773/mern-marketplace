@@ -17,3 +17,14 @@ Password: qwerty123
 
 ![Panel](screenshots/sc1.png?raw=true)
 ![Messages](screenshots/sc2.png?raw=true)
+
+
+## Technologies
+
+* ReactJS
+* React Router
+* JWT Tokens
+* Material UI
+* MongoDB
+* Express.js
+* Node.js
