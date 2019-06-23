@@ -1,0 +1,38 @@
+{
+  "name": "mern-marketplace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "keywords": [],
+  "author": "Kamil Smas",
+  "license": "ISC",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "4.16.3",
+    "express-jwt": "^5.3.1",
+    "file-loader": "^4.0.0",
+    "formidable": "^1.2.1",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mongodb": "3.0.7",
+    "mongoose": "^5.5.14",
+    "nodemon": "1.17.3",
+    "query-string": "^6.7.0",
+    "react-stripe-elements": "^3.0.0",
+    "request": "^2.88.0",
+    "stripe": "^7.1.0"
+  }
+}
