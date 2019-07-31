@@ -8,12 +8,11 @@ Password: qwerty123
 
 # What is inside ?
 
-* Login/Register
+* login/register
 * seller account
 * related products
 * suggestions
 * order management 
-* payment processing with Stripe
 
 ![Panel](screenshots/sc1.png?raw=true)
 ![Messages](screenshots/sc2.png?raw=true)
