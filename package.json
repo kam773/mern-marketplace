@@ -29,7 +29,7 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.11",
     "mongodb": "3.0.7",
-    "mongoose": "^5.5.14",
+    "mongoose": "^5.7.5",
     "nodemon": "1.17.3",
     "query-string": "^6.7.0",
     "react-stripe-elements": "^3.0.0",
